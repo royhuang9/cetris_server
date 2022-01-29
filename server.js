@@ -33,4 +33,5 @@ app.get('/*', (req, res) => {
 
 let server = https.createServer(options, app);
 
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+//server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
